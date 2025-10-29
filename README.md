@@ -22,5 +22,10 @@ You can test the NestJS + RabbitMQ project using any API consumer of your choice
 ### 1. Using Bruno|Postman|Insomnia
 - Send requests to the API endpoints, e.g., for fetching or sending messages.
 - Endpoint provided:
-- `POST http://localhost:3000/order`
+- `GET http://localhost:3000/order`
 - `POST http://localhost:3000/order/place-order`
+    {
+      "email": "something@something.com",
+      "productName": "product",
+      "quantity": 10
+    }
