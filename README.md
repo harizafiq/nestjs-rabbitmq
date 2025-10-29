@@ -12,7 +12,7 @@ This project uses **RabbitMQ** as the message broker.
 - If you use **Docker**, you can run RabbitMQ with the management UI easily.
 
 ## Open RabbitMQ to see queue
-- http://localhost:5672
+- http://localhost:15672
 - username:guest|password:guest
 
 ## Testing the API
